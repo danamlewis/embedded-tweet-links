@@ -23,3 +23,6 @@ for embed_link in $embed_links; do
   # Append the embedded link to the CSV file
   echo $embed_link >> $output_file
 done
+
+# Confirm that the CSV file was created
+echo "CSV file created at $output_file"
